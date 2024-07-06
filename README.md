@@ -29,3 +29,6 @@ The experiment uses the CHB-MIT public epilepsy EEG dataset, available at [this 
    - `GNN_type`: Specifies the type of GNN to use (excluding GAE).
    - `graph_type`: Specifies the graph structure to use. Available options are: 'G_PCC' for Pearson Correlation Coefficient, 'G_MSC' for Magnitude-Squared Coherence, and 'G_PLV' for Phase-Locking Value.
    - `if_pretrain`: Indicates whether to include the GCD module. If set to True, both the pretraining and fine-tuning stages will involve GCD.
+  
+
+#### The experiment data "processed_data.h5" is in the "master" branch. You need to download it and change the link in the "utils.py" file.

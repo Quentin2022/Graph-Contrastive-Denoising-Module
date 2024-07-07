@@ -31,4 +31,4 @@ The experiment uses the CHB-MIT public epilepsy EEG dataset, available at [this 
    - `if_pretrain`: Indicates whether to include the GCD module. If set to True, both the pretraining and fine-tuning stages will involve GCD.
   
 
-#### The experiment data "processed_data.h5" is in the "master" branch. You need to download it and change the link in the "utils.py" file.
+#### The experiment data "processed_data.h5" can be download from https://drive.google.com/file/d/1SoGdJ7iSehJwy7T9QMhzwCABOfWlBHvh/view?usp=sharing.

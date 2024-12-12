@@ -1,6 +1,6 @@
 ### Graph Contrastive Denoising
 
-Graph Contrastive Denoising (GCD) is a universal GNN module proposed in the paper "GCD: Graph Contrastive Denoising Module for GNNs in EEG Classification." This paper introduces a generic GSL module specifically designed for small-scale, dense, weighted graphs. GCD employs a pretraining and fine-tuning architecture for graph structure learning. 
+Graph Contrastive Denoising (GCD) is a universal GNN module proposed in the paper "GCD: Graph Contrastive Denoising Module for GNNs in EEG Classification." This paper introduces a generic GSL module specifically designed for small-scale, dense, weighted graphs. GCD employs a pretraining and fine-tuning architecture for graph structure learning. The paper has now been published in `Expert System with Application` [](https://linkinghub.elsevier.com/retrieve/pii/S095741742402880X).
 
 #### Pretraining Stage
 During the pretraining stage, GCD learns a mapping from the original graph to an embedded graph. Local and global features of the embedded graph are extracted, and contrastive learning is applied to bring features of the same class closer together while differentiating features from different classes. Through iterative refinement, the resulting embedded graph retains more relevant information for downstream classification tasks and removes irrelevant noise. The pretrained denoised graph structure becomes more stable, making it better suited for training GNNs.
